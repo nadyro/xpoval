@@ -1,0 +1,61 @@
+.secondcontainerindexpage{
+    width: 100%;
+    padding: 15px;
+    background: white;
+    display: block;
+}
+.secondcontainerindexpage .fresh_news{
+    position: relative;
+    display: inline-block;
+    width: 65%;
+    height: auto;
+    padding: 10px;
+}
+.secondcontainerindexpage .panel_news{
+    width: 30%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+}
+.fresh_news .forte_news{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: block;
+}
+.panel_news .forte_news{
+    margin-bottom: 50px;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+.forte_news .first_bloc_news, .forte_news .second_bloc_news{
+    height: 100%;
+    width: 48%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.forte_news .first_bloc_news{
+    position: relative;
+}
+.forte_news .second_bloc_news{
+    position: absolute;
+    right: 0;
+}
+.forte_news .description_bloc_news{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+}

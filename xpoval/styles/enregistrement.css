@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 févr. 2017, 21:07:25
+    Author     : Nadir
+*/
+.inscription_page{
+    position: relative;
+    margin-top: 10px;
+}
+.inscription_page .container_form_connexion, .inscription_page .container_form_inscription{
+    width: 45%;
+    position: relative;
+    display: inline-block;
+
+}
+.inscription_page .container_form_connexion{
+    top: 50%;
+    position: absolute !important;
+    transform: translateY(-50%);
+}
+.inscription_page .form_inscription_page, .inscription_page .form_connexion_page{
+    text-align: center;
+}
+.inscription_page .form_inscription_page input, .inscription_page .form_connexion_page input{
+    padding: 10px 0;
+    margin: 5px;
+    border: none;
+    position: relative;
+    width: 50%;
+}
+.inscription_page .separator{
+    position: absolute;
+    height: 100%;
+}
+.inscription_page .form_inscription_page, .inscription_page .form_connexion_page{
+    font-family: 'Noto Serif', serif;
+}
+.inscription_page .container_erreurs{
+    display: none;
+    position: absolute;
+    right: 0;
+}
+.inscription_page .container_erreurs .text_erreurs{
+    position: absolute;
+    z-index: 10000;
+    background: rgba(0,0,0,0.5);
+    transition: 1s;
+    color: white;
+}
+.inscription_page label{
+    display: block;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    text-align: left;
+}
+.inscription_page .label_pp_user{
+    display: block;
+    padding: 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    background: rgba(255,255,255,0.7);
+    text-align: center;
+}
+.inscription_page .submit_verification{
+    background: rgba(0,119,204,0.5);
+    color: #FFF;
+}
+.inscription_page .erreur_connexion{
+    display: none;
+}
+

@@ -1,0 +1,39 @@
+.gestionactualitegaming form{
+    text-align: center;
+}
+.gestionactualitegaming form input, .gestionactualitegaming form textarea, .index_gestion_photography form input{
+    display: block;
+    position:relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.gestionactualitegaming form input, .index_gestion_photography form input{
+    width: 50%;
+}
+.gestionactualitegaming form textarea{
+    width: 50%;
+    height: 80px;
+}
+.gestionactualitegaming .submit_grande_actualite, .index_gestion_photography form .valid_gestion_photography{
+    margin-top: 10px;
+}
+.gestionactualitegaming .grande_actualite{
+    height:auto !important;
+}
+.gestionactualitegaming .grande_actualite .description_actualite {
+    position: relative !important;
+}
+.gestionactualitegaming .contenu_actualite{
+    height: 500px;
+}
+.gestionactualitegaming .bg_image_choice{
+    position: relative;
+}
+.gestionactualitegaming .petite_actu_mc{
+    width: 90%;
+    position: relative;
+}
+.gestionactualitegaming .petite_actu_mc .container_contenu, .gestionactualitegaming .petite_actu_mc .container_description{
+    width: 45%;
+    display: inline-block;
+}

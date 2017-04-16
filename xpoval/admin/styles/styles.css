@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 janv. 2017, 21:23:27
+    Author     : Nadir
+*/
+.add_rubrique_container, .edit_rubrique_container, .delete_rubrique_container{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 5px;
+}
+.edit_rubrique_container{
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+.add_rubrique_container{
+    position: absolute;
+    float: left;
+}
+.delete_rubrique_container{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+.add_rubrique_container h2, .edit_rubrique_container h2, .delete_rubrique_container h2{
+    color: white;
+}
+.add_rubrique_container .add_rubrique, .edit_rubrique_container .edit_rubrique, .delete_rubrique_container .delete_rubrique{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.add_rubrique .libelle_rubrique, .add_rubrique .id_rubrique{
+    display: inline-block;
+}
+.add_rubrique input[type="submit"], .edit_rubrique input[type="submit"], .delete_rubrique input[type="submit"]{
+    display: inline-block;
+    float: left;
+}
+.add_rubrique .annule_add_rubrique, .edit_rubrique .annule_add_rubrique, .delete_rubrique .annule_add_rubrique{
+    display: inline-block;
+    float: right;
+}
+#form_rubrique input, #form_rubrique_edit input{
+    display: block;
+    padding: 10px;
+}
+.container_gestion_rubrique{
+    text-align: center;
+    color: white;
+}
+.label_file_type{
+    display: block;
+    cursor: pointer;
+}
+.container_gestion_rubrique input[type="text"], .container_gestion_rubrique input[type="file"], .container_gestion_rubrique label{
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+}
+.img_label_image_rubrique_edit{
+    width: 50%;
+}
+#form_rubrique_delete .liste_libelle_rubrique{
+    display: block;
+}
+.overlay_validation{
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+}
+.overlay_validation .validation_delete_rubrique{
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    color: black;
+    font-weight: bold;
+}
+.hover_image{
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.hover_image p span{
+    color: red;
+}

@@ -1,0 +1,170 @@
+.first_big_class .all_actualitegaming_page{
+    width: 80%;
+    background: white;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.all_actualitegaming_page .container_actualitegaming_page{
+    width: 100%;
+}
+.all_actualitegaming_page .bloc_ga_pa{
+    position: relative;
+    padding: 10px;
+}
+.bloc_ga_pa .grande_actualite{
+    width: 68.5%;
+    display: inline-block;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    position: relative;
+    height: 260px;
+    box-shadow: 5px 5px 10px;
+
+}
+.bloc_ga_pa .petite_actu_mc{
+    width: 28.5%;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    background: rgba(250,240,255,0.4);
+}
+.bloc_ga_pa .grande_actualite .description_actualite{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    font-family: 'Noto Serif', serif;
+}
+h2{
+    text-align: center;
+    margin: 0;
+}
+.description_actualite p{
+    margin: 0;
+}
+.bloc_ga_pa .petite_actu_mc ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bloc_ga_pa .petite_actu_mc ul li{
+    display: block;
+    height: 35px;
+    margin-bottom: 8px;
+}
+.container_actualitegaming_page .actualites_normales{
+    width: 100%;
+    text-align: center;
+}
+.container_actualitegaming_page .bloc_actus_normales{
+    position: relative;
+    height: 285px;
+    padding: 0 10px;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+.container_actualitegaming_page .petite_actu_normale, .container_actualitegaming_page .grande_actu_normale{
+    height: auto;
+    display: inline-block;
+}
+.container_actualitegaming_page .petite_actu_normale{
+    background: rgba(255,255,255,0.5);
+    width: 33%;
+}
+.container_actualitegaming_page .grande_actu_normale{
+    position: relative;
+    background: rgba(255,255,255,0.5);
+    width: 32.7%;
+}
+.bloc_actus_normales ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+.bloc_actus_normales ul li{
+    display: block;
+    height: 35px;
+}
+.petite_actu_normale:hover, .grande_actu_normale:hover, .petite_actu_mc:hover{
+    cursor: pointer;
+
+}
+.sous_actualites{
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.first_sous_actualite, .second_sous_actualite{
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+.first_sous_actualite{
+    background: url("/xpoval/images/rubriques/wow/wow_bg/wow_bg_3.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.second_sous_actualite{
+    background: url("/xpoval/images/rubriques/lol/lol_bg/lol_bg_3.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.separation_sous_actualite{
+    width: 0.6%;
+    display: inline-block;
+    height: 100%;
+}
+.overlay_sous_actualite{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+/*.overlay_sous_actualite:hover{
+    background: transparent;
+    transition:1.5s;
+}*/
+.overlay_sous_actualite .desc_o_sa{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.temporis p{
+    margin: 10px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+}
+.img_temporis{
+    height:35px;
+    width:35px;
+    float:left;
+}
+.petite_actu_mc{
+    font-size: 19px;
+}
+.grande_actu_normale, .petite_actu_normale, .grande_actualite, .petite_actu_mc, .first_sous_actualite, .second_sous_actualite{
+    cursor: pointer;
+}
+.grande_actualite:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+.clickable ul li:hover{
+    box-shadow: inset 0 0 100px 100px rgba(0, 255, 255, 0.1);
+}
+.contenu_grande_actualite .description_grande_actualite p{
+    font-size: 26px;
+    text-align: left;
+}
+.contenu_grande_actualite .date_actualite{
+    text-align: right;
+}

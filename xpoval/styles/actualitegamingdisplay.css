@@ -1,0 +1,36 @@
+.container_actualite_gaming_display{
+    width: 100%;
+}
+.container_background_grande_actualite .background_grande_actualite{
+    height: 100%;
+    position: relative;
+}
+.container_background_grande_actualite{
+    height: 250px;
+    padding: 10px;
+}
+.container_background_grande_actualite h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 65px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    margin: 0;
+}
+.overlay_background_grande_actualite{
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    height: 100%;
+}
+.contenu_grande_actualite{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+}
